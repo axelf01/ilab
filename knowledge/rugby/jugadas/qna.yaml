@@ -1,0 +1,179 @@
+version: 3
+domain: rugby
+created_by: afritz01
+document_outline: |
+  Jugadas tácticas específicas utilizadas por San Andrés Rugby Club durante la temporada 2021.
+  Incluye jugadas cortas (frontales), jugadas largas y jugadas de mediocampo.
+  Cada jugada tiene nombres específicos del club como Bulita, Quilombo, Lanzini, Francia, etc.
+
+seed_examples:
+  - context: |
+      La jugada "Bulita" es una jugada corta o frontal que crea una situación de 3 vs 2 en el mediocampo.
+      El apertura debe fijar a su oponente, el primer centro compromete a su centro contrario y
+      busca un ángulo corto hacia el hombro interno, corriendo plano. El wing ciego permanece oculto
+      detrás del apertura hasta el último momento para evitar ser detectado. Ambas opciones están diseñadas
+      para penetrar. El segundo centro debe alejar al segundo centro contrario para aislar el 3 vs 2.
+    questions_and_answers:
+      - question: ¿Qué es la jugada "Bulita"?
+        answer: |
+          Bulita es una jugada corta que crea una situación de 3 vs 2 en el mediocampo, involucrando al
+          apertura, primer centro y wing ciego contra el apertura y primer centro contrarios.
+
+      - question: ¿Cómo se ejecuta la jugada Bulita?
+        answer: |
+          El apertura fija a su oponente, el primer centro compromete a su centro contrario y
+          busca un ángulo corto hacia el hombro interno corriendo plano. El wing ciego se esconde detrás
+          del apertura hasta el último momento y aparece cuando el primer centro cambia de ángulo.
+
+      - question: ¿Cuál es el rol del segundo centro en Bulita?
+        answer: |
+          El segundo centro debe alejar al segundo centro contrario para aislar y mantener
+          la ventaja de 3 vs 2 para el equipo atacante.
+
+  - context: |
+      La jugada "Bandeja/Maca/Pomelo" tiene variaciones. El apertura corre recto y luego corta hacia
+      el hombro interno del primer centro contrario. El primer centro cruza y el segundo
+      centro viene en un ángulo corto simultáneamente. El wing ciego puede cruzar detrás del
+      primer centro (MACA) o correr detrás del segundo centro (POMELO). Es importante que el
+      apertura mantenga sus piernas en movimiento después del cruce para crear espacio.
+    questions_and_answers:
+      - question: ¿Cuál es la diferencia entre Bandeja, Maca y Pomelo?
+        answer: |
+          Son variaciones de la misma jugada. En Maca, el wing ciego cruza detrás del
+          primer centro, mientras que en Pomelo corren detrás del segundo centro. Bandeja es la jugada
+          base con los centros cruzando.
+
+      - question: ¿Cómo se ejecuta Bandeja/Maca/Pomelo?
+        answer: |
+          El apertura corre recto y corta hacia el hombro interno del primer centro
+          contrario. El primer centro cruza y el segundo centro viene en un ángulo corto. El
+          wing ciego elige su línea de carrera según la variación (cruzando o por detrás).
+
+      - question: ¿Qué debe hacer el apertura después del cruce?
+        answer: |
+          Debe mantener sus piernas en movimiento y avanzando para crear espacio para el wing y hacer
+          el pase menos obvio para la defensa.
+
+  - context: |
+      "Quilombo" es una jugada larga. El apertura pasa al primer centro, quien ataca hacia adelante
+      con el segundo centro apoyando por afuera. El segundo centro mantiene una línea de carrera recta
+      o hacia afuera hasta el último momento, luego corrige hacia adentro. Si el segundo
+      centro contrario no cierra, el pase va directamente al segundo centro en el mediocampo. El
+      apertura hace un loop alrededor por detrás del segundo centro con apoyo del wing ciego por detrás
+      y el fullback y wing abierto por afuera.
+    questions_and_answers:
+      - question: ¿Qué tipo de jugada es Quilombo?
+        answer: |
+          Quilombo es una jugada larga que crea un loop del apertura por detrás del segundo centro
+          con múltiples opciones de ataque.
+
+      - question: ¿Cómo funciona la jugada Quilombo?
+        answer: |
+          El apertura pasa al primer centro quien ataca hacia adelante con el segundo centro
+          apoyando. El segundo centro mantiene una línea recta y corrige hacia adentro en el
+          último momento. El apertura hace un loop por detrás con apoyo del wing ciego, fullback
+          y wing abierto.
+
+      - question: ¿Cuándo se hace el pase al segundo centro en Quilombo?
+        answer: |
+          Si el segundo centro contrario no cierra, el pase va directamente al
+          segundo centro en el mediocampo.
+
+  - context: |
+      La jugada "Lanzini" SIEMPRE se ejecuta de derecha a izquierda. Si el apertura contrario está
+      posicionado en el lado ciego, el wing ciego se esconde detrás del scrum. Recibe directamente
+      del medio scrum y apunta al hombro interno del 12 contrario, tratando de ganarle la carrera
+      al medio scrum contrario. El segundo centro corre recto y en el último momento
+      cambia de dirección hacia el hombro externo del 12 contrario. El apertura hace un loop detrás
+      del segundo centro y el primer centro se desplaza hacia afuera con tiempo. Si se juega por detrás, debería
+      haber una ventaja de 4 vs 3.
+    questions_and_answers:
+      - question: ¿En qué dirección se ejecuta Lanzini?
+        answer: |
+          Lanzini SIEMPRE se ejecuta de derecha a izquierda para evitar que el medio scrum contrario
+          marque al wing ciego.
+
+      - question: ¿Cómo comienza la jugada Lanzini?
+        answer: |
+          El wing ciego se esconde detrás del scrum si el apertura contrario está en el lado ciego.
+          Recibe directamente del medio scrum y apunta al hombro interno del
+          12 contrario, tratando de ganarle la carrera al medio scrum contrario.
+
+      - question: ¿Qué ventaja numérica crea Lanzini?
+        answer: |
+          Si la jugada se ejecuta por detrás del segundo centro, crea una ventaja de 4 vs 3
+          para el ataque.
+
+  - context: |
+      "Francia" siempre se ejecuta de izquierda a derecha. El primer centro corre recto hacia
+      la defensa y en el último momento encuentra espacio para recibir del medio scrum. El medio scrum
+      recibe del número 8 y debe comprometer al apertura contrario con su línea de carrera.
+      El apertura hace un loop detrás del centro pero no muy profundo para que el medio scrum pueda entregar un
+      pase de calidad. El wing ciego puede cruzar detrás del primer centro, hacer un loop detrás del apertura, o
+      correr una línea de choque. Si hay espacio disponible afuera, se endereza y pasa al segundo centro.
+    questions_and_answers:
+      - question: ¿En qué dirección se juega Francia?
+        answer: |
+          Francia siempre se juega de izquierda a derecha para evitar que el medio scrum contrario
+          marque al atacante.
+
+      - question: ¿Cuál es el rol del medio scrum en Francia?
+        answer: |
+          El medio scrum recibe del número 8 y debe comprometer al apertura contrario con
+          su línea de carrera antes de pasar al primer centro. Luego tiene múltiples opciones
+          de pase.
+
+      - question: ¿Qué opciones de pase tiene el medio scrum en Francia?
+        answer: |
+          Puede pasar al primer centro corriendo plano, al apertura haciendo loop por detrás, al
+          wing ciego por detrás, o al wing ciego en una línea de choque. Si hay espacio
+          afuera, se endereza y pasa al segundo centro.
+
+  - context: |
+      La jugada "Boca" siempre se ejecuta de izquierda a derecha. Los centros corren líneas casi idénticas:
+      rectas hacia la defensa y en el último momento encuentran espacio para recibir del apertura.
+      El apertura debe preocupar al primer centro contrario. El wing ciego hace un loop detrás de los centros
+      como trailer pero no muy profundo para mantener la calidad del pase. El segundo centro debe llegar
+      más alto que el primer centro para que ambos pases sean posibles.
+    questions_and_answers:
+      - question: ¿En qué se diferencia Boca de otras jugadas?
+        answer: |
+          En Boca, los centros corren líneas muy similares y rectas, encontrando espacio en el último momento.
+          El wing ciego hace un loop por detrás como trailer pero se mantiene más corto.
+
+      - question: ¿Qué debe hacer el segundo centro en la jugada Boca?
+        answer: |
+          El segundo centro (13) debe llegar más alto en el campo que el primer centro (12) para que
+          ambos pases sean posibles y creen opciones reales de ataque.
+
+      - question: ¿Por qué se juega Boca de izquierda a derecha?
+        answer: |
+          Para evitar que el medio scrum contrario marque al wing ciego que viene desde atrás.
+
+  - context: |
+      El "Bufetero" es un cruce de centros sin la pelota. El segundo centro viene corto por delante
+      y el primer centro va largo por detrás. El wing ciego apoya por adentro al primer centro.
+      Las líneas de carrera de los centros son inicialmente paralelas y rectas. Cuando el segundo centro cambia
+      de ángulo, debe hacerlo hacia un espacio (hombro externo del 12 contrario, NO hacia el
+      apertura). En ese momento, el primer centro se desplaza hacia afuera con profundidad.
+    questions_and_answers:
+      - question: ¿Qué es el Bufetero?
+        answer: |
+          El Bufetero es un cruce de centros sin la pelota donde el segundo centro viene corto
+          por delante y el primer centro va largo por detrás, con el wing ciego apoyando por adentro.
+
+      - question: ¿Hacia dónde debe cambiar de ángulo el segundo centro en Bufetero?
+        answer: |
+          El segundo centro debe cambiar de ángulo hacia un espacio, específicamente hacia el hombro
+          externo del 12 contrario, NO hacia el apertura.
+
+      - question: ¿Cómo comienzan las líneas de carrera en Bufetero?
+        answer: |
+          Las líneas de carrera de ambos centros son inicialmente paralelas y rectas hacia adelante. El cambio
+          de ángulo ocurre en el último momento para sorprender a la defensa.
+
+document:
+  repo: https://github.com/axelf01/san_andres
+  commit: main
+  patterns:
+    - jugadas.md

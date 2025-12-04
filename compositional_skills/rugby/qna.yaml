@@ -1,0 +1,114 @@
+version: 2
+created_by: afritz01
+seed_examples:
+- answer: 'Hay 3 posiciones de rugby en la lista: apertura, wing y hooker.
+    '
+  question: '¿Cuántas posiciones de rugby hay en esta lista: apertura, fútbol, wing,
+    baloncesto, mesa, hooker, guitarra?
+    '
+- answer: 'Las siguientes acciones están prohibidas en rugby: pase forward, tackle
+    alto, jugar en offside.
+    '
+  question: '¿Qué acciones de esta lista están prohibidas en rugby: pase forward,
+    correr con la pelota, tackle alto, anotar un try, jugar en offside, patear la
+    pelota?
+    '
+- answer: 'Hay 4 elementos de equipamiento de rugby: pelota ovalada, protector bucal,
+    botines con tapones, casco de rugby.
+    '
+  question: '¿Cuántos elementos de equipamiento de rugby hay en esta lista: pelota
+    ovalada, raqueta, protector bucal, computadora, botines con tapones, casco de
+    rugby, bicicleta?
+    '
+- answer: 'Las siguientes acciones otorgan puntos en rugby: anotar un try (5 puntos),
+    conversión exitosa (2 puntos), penal al goal (3 puntos), drop goal (3 puntos).
+    '
+  question: 'De esta lista, ¿qué acciones otorgan puntos en rugby: anotar un try,
+    formar un scrum, conversión exitosa, hacer un tackle, penal al goal, drop goal,
+    pasar la pelota?
+    '
+- answer: 'Son jugadores del pack de forwards: pilar, hooker, segunda línea, ala,
+    número 8.
+    '
+  question: 'En esta lista, ¿cuáles son jugadores del pack de forwards: medio scrum,
+    pilar, hooker, apertura, segunda línea, wing, ala, fullback, número 8?
+    '
+- answer: 'Hay 2 formaciones fijas en la lista: scrum y line-out.
+    '
+  question: '¿Cuántas formaciones fijas de rugby hay en esta lista: scrum, partido,
+    line-out, entrenamiento, pelota, conversación?
+    '
+- answer: 'Las siguientes infracciones resultan en un scrum: knock-on, pase forward,
+    pelota no sale del ruck.
+    '
+  question: '¿Qué infracciones de esta lista resultan en un scrum: knock-on, tackle
+    alto, pase forward, offside, pelota no sale del ruck, juego peligroso?
+    '
+- answer: 'Son situaciones de juego donde la pelota debe estar en el suelo: ruck y
+    tackle. En ambos casos la pelota debe estar en contacto con el suelo.
+    '
+  question: 'De esta lista, ¿en qué situaciones la pelota debe estar en el suelo:
+    maul, ruck, scrum, line-out, tackle, conversión?
+    '
+- answer: 'Hay 3 formas de patear la pelota: drop kick, place kick, punt. El grubber
+    también es una forma de patear pero es un tipo específico de punt.
+    '
+  question: '¿Cuántas formas diferentes de patear la pelota hay en esta lista: drop
+    kick, correr, place kick, pasar, punt, tackle, grubber?
+    '
+- answer: 'Las posiciones que típicamente patean al goal son: apertura, fullback.
+    Ocasionalmente también puede hacerlo un centro con buena técnica de pateo.
+    '
+  question: 'De estas posiciones, ¿cuáles típicamente patean al goal: hooker, apertura,
+    pilar, fullback, medio scrum, segunda línea?
+    '
+- answer: 'Las siguientes acciones requieren permanecer de pie: ruck, maul, line-out.
+    En el scrum los jugadores están agachados y empujando, no de pie.
+    '
+  question: '¿En qué situaciones de esta lista los jugadores deben permanecer de
+    pie: ruck, scrum, maul, tackle, line-out?
+    '
+- answer: 'Son tarjetas de sanción en rugby: tarjeta amarilla, tarjeta roja. La tarjeta
+    amarilla es temporal (10 minutos) y la roja es expulsión definitiva.
+    '
+  question: 'De esta lista, ¿cuáles son tarjetas de sanción en rugby: tarjeta amarilla,
+    tarjeta verde, tarjeta roja, tarjeta azul, tarjeta blanca?
+    '
+- answer: 'Pueden levantar jugadores en un line-out: pilar, hooker, segunda línea,
+    ala, número 8. Básicamente todos los forwards pueden ser levantadores.
+    '
+  question: '¿Qué jugadores de esta lista pueden levantar a otros en un line-out:
+    medio scrum, pilar, hooker, apertura, segunda línea, wing, ala, número 8?
+    '
+- answer: 'Las siguientes áreas están marcadas en el campo: área de 22 metros, línea
+    de mitad de cancha, línea de try, in-goal. El área de scrum no es una zona marcada
+    específicamente.
+    '
+  question: '¿Qué áreas de esta lista están marcadas en un campo de rugby: área de
+    22 metros, área de penal, línea de mitad de cancha, área de scrum, línea de try,
+    in-goal?
+    '
+- answer: 'Hay 3 números de jugadores forwards: 1 (pilar izquierdo), 4 (segunda línea),
+    8 (número 8).
+    '
+  question: 'De esta lista, ¿cuántos son números de jugadores forwards: 1, 4, 8,
+    9, 10, 13, 15?
+    '
+- answer: 'Las siguientes opciones están disponibles después de recibir un penal:
+    patear al goal, patear a touch, formar un scrum, jugar rápido.
+    '
+  question: '¿Qué opciones de esta lista están disponibles después de recibir un
+    penal: patear al goal, anotar un try, patear a touch, formar un scrum, formar
+    un maul, jugar rápido?
+    '
+- answer: 'Son responsabilidades del medio scrum: pasar la pelota desde el scrum,
+    dirigir a los forwards, conectar forwards con backs. El medio scrum es el enlace
+    clave entre las dos unidades del equipo.
+    '
+  question: 'De estas responsabilidades, ¿cuáles corresponden al medio scrum: pasar
+    la pelota desde el scrum, saltar en line-outs, dirigir a los forwards, anotar
+    tries, conectar forwards con backs, empujar en el scrum?
+    '
+task_description: 'Enseñar a modelo reglas de rugby
+
+  '
