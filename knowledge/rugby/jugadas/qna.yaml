@@ -130,7 +130,7 @@ seed_examples:
           afuera, se endereza y pasa al segundo centro.
 
   - context: |
-      La jugada "Boca" siempre se ejecuta de izquierda a derecha. Los centros corren líneas casi idénticas:
+      La jugada 'Boca' siempre se ejecuta de izquierda a derecha. Los centros corren líneas casi idénticas:
       rectas hacia la defensa y en el último momento encuentran espacio para recibir del apertura.
       El apertura debe preocupar al primer centro contrario. El wing ciego hace un loop detrás de los centros
       como trailer pero no muy profundo para mantener la calidad del pase. El segundo centro debe llegar
